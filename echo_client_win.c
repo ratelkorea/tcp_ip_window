@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 		fputs("Input message(Q to quit) :  ", stdout);
 		fgets(message, BUF_SIZE, stdin);
 
-		if (!strcmp(message, "q\n") || strcmp(message, "Q\n"))
+		if (!strcmp(message, "q\n") || !strcmp(message, "Q\n"))
 			break;
 		//-----------------------------   잘못된 부분
 		send(hSocket, message, strlen(message), 0);
