@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
   WSABUF dataBuf;
   char msg[] = "Network is Computer!";
-  long unsigned int sendBytes = 0;
+  long unsigned int sendBytes = 0;               // 수정
 
   WSAEVENT evObj;
   WSAOVERLAPPED overlapped;
