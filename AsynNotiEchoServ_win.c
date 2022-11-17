@@ -2,7 +2,7 @@
 #include <string.h>
 #include <WinSock2.h>
 
-#define BUF_SIZE 100
+#define BUF_SIZE 100                           // 480 page
 
 void CompressSockets(SOCKET hSockArr[], int idx, int total);
 void CompressEvents(WSAEVENT hEventArr[], int idx, int total );      //  gcc AsynNotiEchoServ_win.c -o as -lws2_32 -Wall

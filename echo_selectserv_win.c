@@ -6,7 +6,7 @@
 #define BUF_SIZE 1024
 void ErrorHandling(char *message);
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[])              // 289 page
 {
   WSADATA wsaData;
   SOCKET hServSock, hClntSock;
